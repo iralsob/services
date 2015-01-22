@@ -338,14 +338,15 @@ ul.about-top li h2{
 	text-transform: uppercase;
 	color: #373645;
 	font-weight: bold;
-	font-size: 2.4em;
+	font-size: 2em;
 	margin-bottom: 0;
 	padding-right: 5%;
+	letter-spacing: -2px;
 }
 ul.about-top li p{
 	color: #CFCFCF;
 	text-transform: uppercase;
-	font-size: 1.5em;
+	font-size: 1.45em;
 	letter-spacing: -1.7px;
 }
 .about-btn a {
@@ -425,11 +426,12 @@ i.wordpress{
 	background: url(../images/img-sprite.png)no-repeat -205px -143px;
 }
 h3.m_4{
-	font-size:1.7em;
+	font-size:1.6em;
 	text-transform:uppercase;
 	color:#373645;
 	margin:9% 0 6% 0;
 	letter-spacing: -.7px;
+	font-weight: 100;
 }
 p.m_5{
 	color:#B9B9B9;
@@ -1668,6 +1670,7 @@ h3.nav_right {
 	font-size: 24px;
 	color: #373645;
 	text-transform: uppercase;
+	font-weight: 100;
 }
 .offer-title span {
 	font-size: 48px;
@@ -1973,4 +1976,7 @@ input[type="submit"] {
 	text-decoration: none !important;
 	left: 50%;
 	margin-left: -100px;
+}
+b {
+	font-weight: 600;
 }
