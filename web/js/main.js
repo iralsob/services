@@ -105,5 +105,33 @@ $(window).scroll(function(){
 		$(".index-banner").css('padding-top', '0');
 	}
 
+	var h1 = $('.header').height() +
+		$('.about').height() +
+		$('.services').height();
+
+	var h2 = h1 + $('#dosug').height() +
+		$('.project_top').height() +
+		$('#team').height();
+
+	var h3 = $('.header').height() +
+		$('.main').height();
+
+
 	
+
+	if ($(window).scrollTop() <= h1) {
+		$('.menu1 li').removeClass('active');
+		$('.menu1 li:nth-child(1)').addClass('active');
+	} else if ($(window).scrollTop() <= h2 &&
+		$(window).scrollTop() > h1) {
+		$('.menu1 li').removeClass('active');
+		$('.menu1 li:nth-child(2)').addClass('active');
+	} else if ($(window).scrollTop() <= h3 &&
+		$(window).scrollTop() > h2) {
+		$('.menu1 li').removeClass('active');
+		$('.menu1 li:nth-child(3)').addClass('active');
+	} else {
+		$('.menu1 li').removeClass('active');
+		$('.menu1 li:nth-child(4)').addClass('active');
+	}
 });
