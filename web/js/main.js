@@ -114,7 +114,8 @@ $(window).scroll(function(){
 		$('#team').height();
 
 	var h3 = $('.header').height() +
-		$('.main').height();
+		$('.main').height() 
+		- $('.clients').height()*2;
 
 
 	
@@ -126,11 +127,11 @@ $(window).scroll(function(){
 		$(window).scrollTop() > h1) {
 		$('.menu1 li').removeClass('active');
 		$('.menu1 li:nth-child(2)').addClass('active');
-	} else if ($(window).scrollTop() <= h3 &&
+	} else if ($(window).scrollTop() < h3 &&
 		$(window).scrollTop() > h2) {
 		$('.menu1 li').removeClass('active');
 		$('.menu1 li:nth-child(3)').addClass('active');
-	} else {
+	} else if ($(window).scrollTop() >= h3) {
 		$('.menu1 li').removeClass('active');
 		$('.menu1 li:nth-child(4)').addClass('active');
 	}
