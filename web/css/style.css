@@ -913,6 +913,7 @@ ul.news_bottom{
 ul.news_bottom li.comment_section {
 	float: left;
 	width: 0;
+	
 	border-right: 1px solid #6E9BCA;
 	padding-right: 0;
 	margin: 0 4% 0% 0;
