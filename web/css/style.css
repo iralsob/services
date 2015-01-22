@@ -269,12 +269,17 @@ li.linkedin a span {
 	color: #FFF;
 	font-size:5em;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 100;
 	line-height: 0.6em;
 	text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
 	-webkit-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
 	-moz-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
 	-o-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+}
+.slider-left span {
+	margin-top: 22px;
+	display: inline-block;
+	color: #373645 !important;
 }
 span.m_2{
 	color:#000;
@@ -348,6 +353,7 @@ ul.about-top li p{
 	text-transform: uppercase;
 	font-size: 1.45em;
 	letter-spacing: -1.7px;
+	font-weight: 100;
 }
 .about-btn a {
 	border: none;
