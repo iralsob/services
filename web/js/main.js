@@ -104,4 +104,6 @@ $(window).scroll(function(){
 		$(".top-menu_wrap, .header-shadow").removeClass("stickly");
 		$(".index-banner").css('padding-top', '0');
 	}
+
+	
 });
